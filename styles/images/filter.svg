@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="150px" height="150px" viewBox="0 0 150 150" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard-2">
+            <rect id="Rectangle-5" fill="#2D398A" x="10" y="21" width="133" height="6" rx="3"></rect>
+            <ellipse id="Oval-2" fill="#FFFFFF" cx="115.270877" cy="23.8235294" rx="13.270877" ry="11.8235294"></ellipse>
+            <rect id="Rectangle-5" fill="#2D398A" x="10" y="72" width="133" height="6" rx="3"></rect>
+            <rect id="Rectangle-5" fill="#2D398A" x="10" y="123" width="133" height="6" rx="3"></rect>
+            <ellipse id="Oval-2" fill="#FFFFFF" cx="44.270877" cy="74.8235294" rx="13.270877" ry="11.8235294"></ellipse>
+            <ellipse id="Oval-2" fill="#FFFFFF" cx="90.270877" cy="125.823529" rx="13.270877" ry="11.8235294"></ellipse>
+        </g>
+    </g>
+</svg>

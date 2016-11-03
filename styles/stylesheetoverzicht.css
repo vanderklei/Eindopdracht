@@ -1,0 +1,209 @@
+@font-face {
+    font-family: "Nexa Light";
+    src: url(../fonts/Nexa Light.otf);
+    font-family: "Nexa Bold";
+    src: url(../fonts/Nexa Bold.otf);
+}
+
+/*         body        */
+
+body {
+    font-family: "Nexa Light";
+    font-weight: 700;
+    background-color: #F3E5D8;
+    width: 100%;
+    margin: auto;
+}
+
+
+
+/*        header       */
+
+header {
+    background-color: white;
+    width: 100%;
+    margin: auto;
+    padding: 0.5em 0 0.5em 0;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0.1em 0.1em 0.1em rgba(96, 96, 96, 0.28);
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    color: #00D66C;
+    margin: auto;
+}
+
+a.login {
+    width: 2em;
+    height: 2em;
+    margin-right: 1em;
+}
+
+a img {
+    width: 2em;
+    height: 2em;
+    background: #00D66C;
+    border-radius: 50%;
+}
+
+
+/*        main        */
+
+.filter img {
+     width: 1.3em;
+     height: 1.3em; 
+     margin-right: 1em;
+     padding-top: 0.2em;
+}
+
+.filter *{
+    vertical-align: top;
+}
+
+.filter span{
+    line-height: 41px; /*trucje servin -> hoogte van het element gebruiken om de tekst verticaal de centreren*/ 
+}
+
+input+button {
+     vertical-align: middle;
+}
+
+article {
+    width: 95%;
+    vertical-align: top;
+    background-color: white;
+    border-radius: 1em 1em 0 1em;
+    box-sizing: border-box;
+    padding: 1em 1em 2em 1em;
+    margin: 0.5em 0.5em 2em 0.5em;
+    letter-spacing: 0.010em;
+    position:relative;
+}
+
+article a{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    min-width: 50%;
+    box-sizing: border-box;
+    transform: translateY(50%);
+    font-family: "Nexa Bold";
+    background-color: #ff3268;
+    padding: 0.5em;
+    border-radius: 1em;
+    color: white;
+    text-decoration: none;
+    box-shadow: inset 0 -.1875em .0625em #ca2b55;
+    display: flex;
+    align-self: flex-end;
+}
+
+h2 {
+    font-family: "Nexa Bold";
+    font-size: 1.2em;
+    color: #2800a0;
+    margin: auto;
+    padding-bottom: 0.5em;
+}
+
+p {
+    line-height: 1.3em;
+    margin: auto;
+    display: inline;
+}
+
+
+/*filters*/
+
+input[type="search"] {
+    width: 40%;
+    border-style: none;
+    margin: 1em 1em 0 1em;
+    height: 3em;
+    max-width: 30em;
+}
+
+input[placeholder="zoek naar een verhaal"] {
+    padding: 1em;
+}
+
+button[type="button"] {
+    font-family: "Nexa Bold";
+    font-size: 1.2em;
+    color: #2800a0;
+    border-style: none;
+    background-color: #F3E5D8;
+    margin-left: 2em;
+}
+
+
+/*          sidebar          */
+
+aside article {
+     background-color: rgba(255, 255, 255, 0.85);
+}
+
+aside h1 {
+  margin: 0; 
+ text-align: center;
+}
+
+
+/* breakpoints */
+/*    eerste breakpoint = 40 em (daarna zin te lang om te lezen bron:http://baymard.com/blog/line-length-readability  )*/
+
+@media (min-width: 40em) {
+     
+    .container {
+     display: flex;
+     flex-direction: row;
+    }
+    
+    .verhalen {
+        width: 65%;
+    }
+    
+    aside {
+        width: 35%;
+        display: inline-block;
+    }
+    
+}
+
+/*    tweede breakpoint = 60 em    */
+
+@media (min-width: 60em) {
+    .verhalen {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 75%;
+        align-items: baseline;
+    }
+    
+    .verhalen article {
+        width: 31%;
+    }
+    
+        aside {
+        width: 25%;   
+    }
+
+
+}
+
+
+/*    breakpoint = 60 em    */
+
+@media (max-width: 35em) {
+    .mobiletekst {
+            display: none;
+    }
+    
+    aside {
+            display: none;
+        }
+    
